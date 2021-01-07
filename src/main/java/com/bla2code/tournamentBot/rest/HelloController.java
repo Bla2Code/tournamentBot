@@ -1,4 +1,4 @@
-package com.bla2code.tournamentBot;
+package com.bla2code.tournamentBot.rest;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
