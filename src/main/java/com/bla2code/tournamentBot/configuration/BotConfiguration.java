@@ -16,7 +16,7 @@ import lombok.extern.log4j.Log4j2;
 @Configuration
 public class BotConfiguration {
 
-    @Value("${token}")
+    @Value("${cloud.candy.challonge.token}")
     private String token;
 
     @Bean
