@@ -21,10 +21,14 @@ repositories {
 }
 
 dependencies {
-//	implementation 'com.playtika.reactivefeign:feign-reactor-spring-configuration:2.0.22'
-	implementation 'com.playtika.reactivefeign:feign-reactor-webclient:2.0.22'
-	implementation 'com.playtika.reactivefeign:feign-reactor-java11:2.0.22'
-	implementation 'com.playtika.reactivefeign:feign-reactor-core:2.0.22'
+//	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign:jar:3.0.2'
+//	implementation 'org.springframework.cloud:spring-cloud-dependencies:pom:2020.0.0'
+
+
+//	implementation 'com.playtika.reactivefeign:feign-reactor-spring-configuration:2.0.23'
+//	implementation 'com.playtika.reactivefeign:feign-reactor-webclient:2.0.23'
+//	implementation 'com.playtika.reactivefeign:feign-reactor-java11:2.0.23'
+//	implementation 'com.playtika.reactivefeign:feign-reactor-core:2.0.23'
 	implementation 'io.projectreactor:reactor-test'
 	implementation 'org.springframework.boot:spring-boot-starter-test'
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'

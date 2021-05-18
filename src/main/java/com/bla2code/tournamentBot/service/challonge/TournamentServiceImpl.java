@@ -1,10 +1,7 @@
 package com.bla2code.tournamentBot.service.challonge;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
-import reactivefeign.webclient.WebReactiveFeign;
-import reactor.core.publisher.Mono;
 
 @Service
 public class TournamentServiceImpl implements TournamentServiceInterface {
@@ -17,12 +14,12 @@ public class TournamentServiceImpl implements TournamentServiceInterface {
 
     public void createTournament() {
         /* Create instance of your API */
-        ChallongeReactiveClient client = WebReactiveFeign
-                        .<ChallongeReactiveClient>builder()
-                        .target(ChallongeReactiveClient.class, url);
-
-        /* Execute nonblocking requests */
-        Mono<ChallongeTournament> challongeTournamentMono = client.getTournaments(token);
+//        ChallongeReactiveClient client = WebReactiveFeign
+//                        .<ChallongeReactiveClient>builder()
+//                        .target(ChallongeReactiveClient.class, url);
+//
+//        /* Execute nonblocking requests */
+//        Mono<ChallongeTournament> challongeTournamentMono = client.getTournaments(token);
 
 //        client.getTournaments(API_KEY);
     }
